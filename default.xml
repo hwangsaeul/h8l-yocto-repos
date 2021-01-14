@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="dunfell"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded"  name="oe"/>
+  <remote fetch="https://github.com/hwangsaeul"  name="h8l"/>
+
+  <project remote="yocto"   revision="e32d854e33bc86c2a616df8708e021a098afcf73" upstream="dunfell" name="poky" path="sources/poky"/>
+  <project remote="yocto"   revision="4922e10c7b8169585ff9322b0d913dadc525c68e" upstream="dunfell" name="meta-intel" path="sources/meta-intel"/>
+  <project remote="yocto"   revision="c74cc97641fd93e0e7a4383255e9a0ab3deaf9d7" upstream="dunfell" name="meta-security" path="sources/meta-security"/>
+  <project remote="oe"      revision="f2d02cb71eaff8eb285a1997b30be52486c160ae" upstream="dunfell" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+</manifest>
