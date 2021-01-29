@@ -4,12 +4,16 @@
   <default sync-j="4" revision="dunfell"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://git.openembedded.org/bitbake" name="bitbake"/>
   <remote fetch="https://github.com/openembedded"  name="oe"/>
   <remote fetch="https://github.com/hwangsaeul"  name="h8l"/>
 
-  <project remote="yocto"   revision="e32d854e33bc86c2a616df8708e021a098afcf73" upstream="dunfell" name="poky" path="sources/poky"/>
-  <project remote="yocto"   revision="4922e10c7b8169585ff9322b0d913dadc525c68e" upstream="dunfell" name="meta-intel" path="sources/meta-intel"/>
-  <project remote="yocto"   revision="c74cc97641fd93e0e7a4383255e9a0ab3deaf9d7" upstream="dunfell" name="meta-security" path="sources/meta-security"/>
-  <project remote="oe"      revision="f2d02cb71eaff8eb285a1997b30be52486c160ae" upstream="dunfell" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="yocto"   revision="9de9e2e3194525c8eea57ebc3c7396b4695549a7" upstream="gatesgarth" name="poky" path="sources/poky"/>
+  <project remote="yocto"   revision="50f0a4f4832f5d9a2e069ca649ccc7b3bba10329" upstream="gatesgarth" name="meta-intel" path="sources/meta-intel"/>
+  <project remote="yocto"   revision="4583ab9b08c1c582a9d7e8ab70d6685ed4720799" upstream="gatesgarth" name="meta-security" path="sources/meta-security"/>
+
+  <project remote="oe"      revision="4e8022635fc8543d135fed3091a9f555899d1b3c" upstream="gatesgarth" name="openembedded-core" path="sources/openembedded-core"/>
+  <project remote="oe"      revision="6ff4bd4f345b4e8030b9197d13097308df521576" upstream="gatesgarth" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe"      revision="cb7277e7bb3a440968fdb918d56fe8fa17bca2e6" upstream="1.48" name="bitbake" path="sources/bitbake"/>
 
 </manifest>
