@@ -8,12 +8,12 @@
   <remote fetch="https://github.com/openembedded"  name="oe"/>
   <remote fetch="https://github.com/hwangsaeul"  name="h8l"/>
 
-  <project remote="yocto"   revision="0298de9a8ac4be957397ef13ff1ab7babb0970c0" upstream="gatesgarth" name="poky" path="sources/poky"/>
-  <project remote="yocto"   revision="76e0a427e58d068d0758fa052d2d1548067cf592" upstream="gatesgarth" name="meta-intel" path="sources/meta-intel"/>
+  <project remote="yocto"   revision="60c8482769f38a4db6f38d525405c887794511a9" upstream="gatesgarth" name="poky" path="sources/poky"/>
+  <project remote="yocto"   revision="c325d3e2eab9952dc175a38f31b78fecdcdd0fcc" upstream="gatesgarth" name="meta-intel" path="sources/meta-intel"/>
   <project remote="yocto"   revision="3daf99fd138b0eebe864bbe1b9c71241d97c4512" upstream="gatesgarth" name="meta-security" path="sources/meta-security"/>
 
-  <project remote="oe"      revision="c0befa46a2494a1fee46bcee853db6430940ba8f" upstream="gatesgarth" name="openembedded-core" path="sources/openembedded-core"/>
-  <project remote="oe"      revision="945f062ff098dc9c8ba8d22c5eef88adec60730d" upstream="gatesgarth" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="oe"      revision="cb7277e7bb3a440968fdb918d56fe8fa17bca2e6" upstream="1.48" name="bitbake" path="sources/bitbake"/>
+  <project remote="oe"      revision="d47b7cdc3508343349f3bb3eacb2dc3227dd94d2" upstream="gatesgarth" name="openembedded-core" path="sources/openembedded-core"/>
+  <project remote="oe"      revision="70ee7293017c4f38fee71ffdb60e4713fdc88bcf" upstream="gatesgarth" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe"      revision="e05d79a6ed92c9ce17b90fd5fb6186898a7b3bf8" upstream="1.48" name="bitbake" path="sources/bitbake"/>
 
 </manifest>
