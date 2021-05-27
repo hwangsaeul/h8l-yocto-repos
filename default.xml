@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="dunfell"/>
+  <default sync-j="4" revision="hardknott"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://git.openembedded.org/bitbake" name="bitbake"/>
   <remote fetch="https://github.com/openembedded"  name="oe"/>
   <remote fetch="https://github.com/hwangsaeul"  name="h8l"/>
 
-  <project remote="yocto"   revision="60c8482769f38a4db6f38d525405c887794511a9" upstream="gatesgarth" name="poky" path="sources/poky"/>
-  <project remote="yocto"   revision="c325d3e2eab9952dc175a38f31b78fecdcdd0fcc" upstream="gatesgarth" name="meta-intel" path="sources/meta-intel"/>
-  <project remote="yocto"   revision="3daf99fd138b0eebe864bbe1b9c71241d97c4512" upstream="gatesgarth" name="meta-security" path="sources/meta-security"/>
+  <project remote="yocto"   revision="fd33741e279702d8498fce47450cb1ea275e5e6b" upstream="hardknott" name="poky" path="sources/poky"/>
+  <project remote="yocto"   revision="4d5791d9ff515ba1660234b1987eae4d4e90eeca" upstream="hardknott" name="meta-intel" path="sources/meta-intel"/>
+  <project remote="yocto"   revision="c6b1eec0e5e94b02160ce0ac3aa9582cbbf7b0ed" upstream="hardknott" name="meta-security" path="sources/meta-security"/>
 
-  <project remote="oe"      revision="d47b7cdc3508343349f3bb3eacb2dc3227dd94d2" upstream="gatesgarth" name="openembedded-core" path="sources/openembedded-core"/>
-  <project remote="oe"      revision="70ee7293017c4f38fee71ffdb60e4713fdc88bcf" upstream="gatesgarth" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="oe"      revision="e05d79a6ed92c9ce17b90fd5fb6186898a7b3bf8" upstream="1.48" name="bitbake" path="sources/bitbake"/>
+  <project remote="oe"      revision="6d69f7453f78dcb19f472dcea183e859648c5243" upstream="hardknott" name="openembedded-core" path="sources/openembedded-core"/>
+  <project remote="oe"      revision="cf5bd6a8308108b4313a1e45ce8aa87e73125bf9" upstream="hardknott" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe"      revision="0c83e98b0b4129e43e05129074fff60b22a9f2eb" upstream="1.50" name="bitbake" path="sources/bitbake"/>
 
 </manifest>
