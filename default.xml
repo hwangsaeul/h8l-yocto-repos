@@ -6,7 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://git.openembedded.org/bitbake" name="bitbake"/>
   <remote fetch="https://github.com/openembedded"  name="oe"/>
-  <remote fetch="https://github.com/hwangsaeul"  name="h8l"/>
+  <remote fetch="https://github.com/hwangsaeul" name="h8l"/>
 
   <project remote="yocto"   revision="fd33741e279702d8498fce47450cb1ea275e5e6b" upstream="hardknott" name="poky" path="sources/poky"/>
   <project remote="yocto"   revision="4d5791d9ff515ba1660234b1987eae4d4e90eeca" upstream="hardknott" name="meta-intel" path="sources/meta-intel"/>
@@ -15,5 +15,7 @@
   <project remote="oe"      revision="6d69f7453f78dcb19f472dcea183e859648c5243" upstream="hardknott" name="openembedded-core" path="sources/openembedded-core"/>
   <project remote="oe"      revision="cf5bd6a8308108b4313a1e45ce8aa87e73125bf9" upstream="hardknott" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="oe"      revision="0c83e98b0b4129e43e05129074fff60b22a9f2eb" upstream="1.50" name="bitbake" path="sources/bitbake"/>
+
+  <project remote="h8l"     upstream="hardknott" name="meta-hwangsaeul" path="sources/meta-hwangsaeul"/>
 
 </manifest>
