@@ -8,14 +8,14 @@
   <remote fetch="https://github.com/openembedded"  name="oe"/>
   <remote fetch="https://github.com/hwangsaeul" name="h8l"/>
 
-  <project remote="yocto"   revision="b53230c08d9f02ecaf35b4f0b70512abbf10ae11" upstream="honister" name="poky" path="sources/poky"/>
+  <project remote="yocto"   revision="86ae0ef3da48790bd91763fccf32d11894c5b1f4" upstream="honister" name="poky" path="sources/poky"/>
   <project remote="yocto"   revision="d0f1c1ebfd9b7fe8d22c6a62208f78bccc6f3bf6" upstream="honister" name="meta-intel" path="sources/meta-intel"/>
   <project remote="yocto"   revision="fb77606aef461910db4836bad94d75758cc2688c" upstream="honister" name="meta-security" path="sources/meta-security"/>
 
-  <project remote="oe"      revision="70384dd958c57d1da924a66cffa35f80eb60d4b0" upstream="honister" name="openembedded-core" path="sources/openembedded-core"/>
-  <project remote="oe"      revision="f31b9854b13e46cb74569538a33c36730c00c695" upstream="honister" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe"      revision="b8fa0c446ecb3f65d7c134426a07c6244959cdf7" upstream="honister" name="openembedded-core" path="sources/openembedded-core"/>
+  <project remote="oe"      revision="f632403d1800363ac63a1ad5543278b82c659832" upstream="honister" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="oe"      revision="c78ebac71ec976fdf27ea24767057882870f5c60" upstream="1.52" name="bitbake" path="sources/bitbake"/>
 
-  <project remote="h8l"     upstream="honister" name="meta-hwangsaeul" path="sources/meta-hwangsaeul"/>
+  <project remote="h8l"     revision="e93b6c43b9202e0b496bb9ce5a368073ff6c38ce" upstream="honister" name="meta-hwangsaeul" path="sources/meta-hwangsaeul"/>
 
 </manifest>
